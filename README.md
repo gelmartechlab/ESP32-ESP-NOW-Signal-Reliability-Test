@@ -77,8 +77,6 @@ This interval includes button handling, wireless communication, and receiver pro
 
 The recorded wide time scale showed the transitions but did not establish an accurate numerical delay. A closer time scale and time cursors are needed to measure it.
 
-## Sketch Availability
-
 ## Sketches
 
 - [Transmitter sketch](Transmitter_EP10/Transmitter_EP10.ino)
