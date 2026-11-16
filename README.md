@@ -79,8 +79,19 @@ The recorded wide time scale showed the transitions but did not establish an acc
 
 ## Sketch Availability
 
-The Episode 10 transmitter and receiver sketches will be added after verification.
+## Sketches
 
+- [Transmitter sketch](Transmitter_EP10/Transmitter_EP10.ino)
+- [Receiver sketch](Receiver_EP10/Receiver_EP10.ino)
+
+These sketches provide button-to-LED control and live RSSI.
+The 100-packet results above came from a separate recorded test.
+
+The transmitter uses 30 ms button debounce, which contributes
+to the observed button-to-LED response delay.
+
+Before uploading, update RECEIVER_MAC in the transmitter to match
+the MAC printed by your receiver. Set Serial Monitor to 115200 baud.
 ## Channel
 
 https://www.youtube.com/@gelmartechlab
